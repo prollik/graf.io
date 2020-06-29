@@ -1,0 +1,261 @@
+@media (max-width: 1144px) {
+    .slick-slide {
+        opacity: 1;
+    }
+
+    .slick-list.draggable{
+        height: 550px;
+    }
+
+    .slick-track{
+        text-align: center;
+    }
+
+    .slick-slide .gallery__img {
+        max-width: 500px;
+        max-height: 500px;
+    }
+}
+
+@media (max-width: 1029px) {
+    .gallery__link-item{
+        max-width: 620px;
+        grid-template-columns: 300px 300px;
+    }
+}
+
+@media (max-width: 930px) {
+
+    .application__item {
+        padding: 26px;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+        background: rgba(78, 78, 78, 0.5)
+    }
+
+    .application__img{
+        width: auto;
+    }
+
+    .footer__inner{
+        display: block;
+    }
+
+    .footer__map{
+        margin: 20px auto auto;
+    }
+}
+
+@media (max-width: 919px) {
+
+    .benefits__inner-right{
+        margin-left: auto;
+
+    }
+    .benefits__inner-box {
+        display: block;
+    }
+
+    .benefits__title-time,
+    .benefits__title-equipment,
+    .benefits__title-geo,
+    .benefits__title-calendar,
+    .benefits__title-price{
+        text-align: center;
+
+    }
+
+    .benefits__title-price{
+
+    }
+
+    .benefits__inner {
+        padding: 30px 0 15px;
+    }
+
+}
+
+@media (max-width: 815px){
+    .header__btn-menu{
+        display: block;
+        margin-left: 15px;
+    }
+
+    .menu__ul{
+        display: none;
+        position: absolute;
+        right: 0;
+        left: 0;
+    }
+
+    .btn__menu-active {
+        display: block;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .menu__ul li{
+        display: block;
+        text-align: center;
+    }
+
+    .menu__ul a{
+        display: block;
+        background-color: black;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+}
+
+@media (max-width: 774px){
+    .header__contacts{
+    display: block;
+    }
+
+    .header__logo{
+        position: relative;
+    }
+
+    .header__logo-item{
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+    .header__tel{
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
+    .menu{
+        margin: auto;
+    }
+}
+
+@media (max-width: 715px) {
+    .application__item {
+        width: 450px;
+    }
+}
+
+@media (max-width: 674px) {
+    .gallery__link-item{
+        max-width: 300px;
+        grid-template-columns: 300px;
+        grid-column-gap: 0;
+        grid-row-gap: 20px;
+    }
+}
+
+@media (max-width: 635px) {
+    .slick-track{
+        position: relative;
+    }
+
+    .slick-list.draggable{
+        height: 420px;
+    }
+
+    .slick-slide .gallery__img {
+        max-width: 300px;
+        max-height: 380px;
+    }
+}
+
+@media (max-width: 545px){
+    .header__content{
+        display: block;
+    }
+
+    .header__logo{
+        position: relative;
+    }
+
+    .header__logo-item{
+        position: relative;
+        top: auto;
+        transform: translate(0, 0);
+    }
+
+    .header__link{
+        text-align: center;
+    }
+
+    .header__tel, .header__geo{
+        max-width: 375px;
+        margin: 20px auto auto;
+    }
+
+    .header__geo-inner .header__link:before{
+        left: -5px;
+    }
+
+    .header__tel .header__link:before{
+        left: 60px;
+    }
+
+    .header__contacts-text{
+        text-align: center;
+    }
+}
+
+@media (max-width: 510px) {
+    .application__item {
+        width: 350px;
+    }
+}
+
+@media (max-width: 465px){
+    .gallery__title {
+        top: 25px;
+    }
+
+    .gallery__title-portfolio{
+        top: 36px;
+    }
+
+    .benefits__inner-left{
+        min-width: 100%;
+    }
+}
+
+
+
+@media (max-width: 463px) {
+    .slick-dots li {
+        margin-top: 22px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+
+
+@media (max-width: 425px){
+.header__geo-inner .header__link:before{
+    left: -20px;
+}
+
+.header__tel .header__link:before{
+    left: 45px;
+    }
+}
+
+@media (max-width: 400px) {
+    .application__item {
+        width: 300px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+
+    }
+}
